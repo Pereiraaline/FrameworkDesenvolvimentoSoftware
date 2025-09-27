@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cadastre-se</title>
+</head>
+
+<body>
+    <div>
+        <h2>ENDEREÇO</h2>
+        <form class="row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12">
+                <label class="visually-hidden" for="inlineFormInputGroupCep">CEP</label>
+                <div class="input-group">
+                    <div class="input-group-text">CEP</div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupCep" placeholder="CEP">
+                </div>
+            </div>
+
+ <div class="col-12">
+                <label class="visually-hidden" for="inlineFormInputGroupRua">Rua</label>
+                <div class="input-group">
+                    <div class="input-group-text">RUA</div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupRua" placeholder="Rua" readonly>
+                </div>
+            </div>
+
+             <div class="col-12">
+                <label class="visually-hidden" for="inlineFormInputGroupBairro">Bairro</label>
+                <div class="input-group">
+                    <div class="input-group-text">Bairro</div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupBairro" placeholder="Bairro" readonly>
+                </div>
+            </div>
+
+ <div class="col-12">
+                <label class="visually-hidden" for="inlineFormInputGroupCidade">Cidade</label>
+                <div class="input-group">
+                    <div class="input-group-text">Cidade</div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupCidade" placeholder="Cidade" readonly>
+                </div>
+            </div>
+
+             <div class="col-12">
+                <label class="visually-hidden" for="inlineFormInputGroupEstado">Estado</label>
+                <div class="input-group">
+                    <div class="input-group-text">Estado</div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupEstado" placeholder="Estado" readonly>
+                </div>
+            </div>
+
+
+             <div class="col-12">
+                <label class="visually-hidden" for="inlineFormInputGroupNumero">Número</label>
+                <div class="input-group">
+                    <div class="input-group-text">Número</div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupNumero" placeholder="Numero">
+                </div>
+            </div>
+
+
+             <div class="col-12">
+                <label class="visually-hidden" for="inlineFormInputGroupComplemento">Complemento</label>
+                <div class="input-group">
+                    <div class="input-group-text">Complemento</div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupComplemento" placeholder="Complemento">
+                </div>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-info">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+    <!-- Script Bootstrap e controller-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    
+    <script src="controller.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 22 de set. de 2025, 18:55:56
+    Author     : adprp
+*/
+
+/* Reset e fontes */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f4ff, #dbe4ff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container principal (apenas o que envolve o form) */
+body > div {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 90%;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    letter-spacing: 1px;
+}
+
+/* Ajuste visual para os grupos de input (sem alterar estrutura) */
+.input-group {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.input-group-text {
+    background-color: #e9ecef;
+    font-weight: 600;
+}
+
+/* Botão de envio */
+button[type="submit"] {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #0b5ed7;
+    transform: scale(1.02);
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+    body > div {
+        padding: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .input-group-text {
+        font-size: 0.9rem;
+    }
+}
+
